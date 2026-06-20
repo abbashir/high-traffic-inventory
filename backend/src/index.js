@@ -26,6 +26,8 @@ app.use((req, _res, next) => {
   next();
 });
 
+app.get('/', (req, res) => res.json({ message: 'API is running', docs: '/api/docs' }));
+
 app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.get('/api/openapi.json', (req, res) => res.json(swaggerSpec));
 
