@@ -39,6 +39,9 @@ curl -X POST http://localhost:4000/api/drops \
 | **API Docs** | https://high-traffic-inventory-production.up.railway.app/api/docs |
 
 
+## 🚀 Screen Recording Video Link
+https://drive.google.com/file/d/1qcLXQ_xyw6fix03gA2iGV1YRuMmdU-CN/view?usp=sharing
+
 
 ## Architecture Decisions
 
