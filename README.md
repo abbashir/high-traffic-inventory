@@ -30,6 +30,16 @@ curl -X POST http://localhost:4000/api/drops \
   -d '{"name":"Air Jordan 1","totalStock":5,"price":180,"startsAt":"2025-07-01T00:00:00Z"}'
 ```
 
+## 🚀 Live Demo
+
+| Service | URL |
+|---------|-----|
+| **Frontend** | https://high-traffic-inventory-frontend.vercel.app |
+| **Backend API** | https://high-traffic-inventory-production.up.railway.app |
+| **API Docs** | https://high-traffic-inventory-production.up.railway.app/api/docs |
+
+
+
 ## Architecture Decisions
 
 ### How 60-Second Expiration Works
