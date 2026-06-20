@@ -13,6 +13,8 @@ docker exec -it sneaker_drop_backend npx prisma migrate dev --name init
 
 App runs at: http://localhost:3000
 API runs at: http://localhost:4000
+API docs (Swagger UI) at: http://localhost:4000/api/docs
+Raw OpenAPI spec at: http://localhost:4000/api/openapi.json
 
 ## Seed Data
 
